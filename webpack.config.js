@@ -20,12 +20,12 @@ module.exports = {
   },
   resolve: {
     modules: [path.join(__dirname, "src"), "node_modules"],
-    extensions: ["json", ".js", ".jsx"],
+    extensions: ["json", ".js", ".jsx", ".ts", ".tsx"],
   },
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx|ts|tsx)$/,
         exclude: "/node_modules",
         use: ["babel-loader"],
       },
