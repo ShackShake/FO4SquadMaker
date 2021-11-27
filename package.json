@@ -1,0 +1,19 @@
+{
+  "name": "fo4squadmaker_fe",
+  "version": "1.0.0",
+  "description": "Fifa Online 4 squad maker with stolen APIs lol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShackShake/FO4SquadMaker_FE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShackShake/FO4SquadMaker_FE/issues"
+  },
+  "homepage": "https://github.com/ShackShake/FO4SquadMaker_FE#readme"
+}
