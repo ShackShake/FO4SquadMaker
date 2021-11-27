@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  "rules": {
+    // 프로젝트별 적용할 Rules
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ]
+  }
+}
